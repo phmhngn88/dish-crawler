@@ -96,17 +96,20 @@ const DISH_TYPES = {
   },
 };
 const OCCASIONS = {
-  1: 'giang-sinh',
-  2: 'tet',
-  3: 'sinh-nhat',
-  4: 'le-tinh-nhan',
-  5: 'ngay-phu-nu',
-  7: 'com-gia-dinh',
-  8: 'le-hoi-cuoi',
-  9: 'mua-an-chay',
-  10: 'ngay-thuong',
-  11: 'trung-thu',
-  12: 'halloween',
+  categoryGroupName: 'Occasions',
+  categories: {
+    1: 'giang-sinh',
+    2: 'tet',
+    3: 'sinh-nhat',
+    4: 'le-tinh-nhan',
+    5: 'ngay-phu-nu',
+    7: 'com-gia-dinh',
+    8: 'le-hoi-cuoi',
+    9: 'mua-an-chay',
+    10: 'ngay-thuong',
+    11: 'trung-thu',
+    12: 'halloween',
+  },
 };
 
 const select = prompt(`
